@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
                         fragment = new CartFragment();
                         break;
                 }
+
                 getSupportFragmentManager().beginTransaction().replace(R.id.body_container, fragment).commit();
 
 
